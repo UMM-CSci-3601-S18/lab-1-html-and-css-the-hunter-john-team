@@ -9,33 +9,30 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #191970;
-
 }
 
 #main-title {
-  color: #C0C0C0;
   font-family: 'Righteous' , cursive;
-  text-align: center;
+  text-align: left;
   font-size: 4rem
 }
 
 .section {
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 20px;
-  border: 10px solid;
+  border: 10px inset;
   margin: 10px;
   max-width: 870px;
-
 }
 
+/*
+  example of grouping,
+  changing size and fonts of headers in the sections
+ */
+.section h2{
+  font-family: 'Righteous' , cursive;
+  text-align: center;
+  font-size: 2rem;
+}
 
-#courses {
-  background-color: floralwhite;
-  color: midnightblue;
-}
-#faculty-list{
-  background-color: floralwhite;
-  color: midnightblue;
-}
 
