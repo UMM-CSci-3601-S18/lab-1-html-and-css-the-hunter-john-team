@@ -29,10 +29,13 @@ body{
   example of grouping,
   changing size and fonts of headers in the sections
  */
-.section h2{
+h2{
   font-family: 'Righteous' , cursive;
   text-align: center;
   font-size: 2rem;
+  text-shadow: 2px 2px red;
 }
 
-
+img{
+  border-radius: 75%;
+}
