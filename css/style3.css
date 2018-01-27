@@ -17,10 +17,10 @@ body{
   changes font, font size, color, and aligns left
  */
 #main-title {
-  font-family: 'Righteous' , cursive;
+  font-family: 'Orbitron', Times, cursive;
   text-align: left;
   font-size: 4rem;
-  color: #6A9E8B;
+  color: green;
 }
 
 /*
@@ -28,11 +28,13 @@ body{
   sets border and background color
  */
 .section{
-  border-radius: 10px;
+  border-radius: 0;
   padding: 20px;
-  border: 10px dashed blue;
+  border: 5px solid purple;
   margin: 10px;
   max-width: 870px;
+  color: green;
+  font-family: 'Orbitron',Times, cursive;
 }
 
 /*
@@ -40,15 +42,14 @@ body{
   changes the background for pslo, courses, and faculty sections
  */
 #pslo, #courses, #faculty{
-  background: #D5B97C;
+  background: black;
 }
 
 h2 {
-  font-family: 'Righteous' , cursive;
-  text-align: center;
+  font-family: 'Orbitron' ,Times, cursive;
+  text-align: left;
   font-size: 2rem;
-  text-shadow: 4px 4px white;
-
+  color: green;
 }
 
 /*
@@ -56,7 +57,7 @@ h2 {
   changes the header in the faculty section
  */
 #faculty h2 {
-  font-family:'Times New Roman', cursive;
+  font-family:'Orbitron',Times, cursive;
   text-align: left;
   font-size: 2rem;
 }
@@ -72,10 +73,16 @@ Changes the faculty pictures to a 2x2 instead of in a line
 img {
   border-radius: 50%;
 }
+/*
+Changes the numbers in PSLO to roman numerals
+ */
+ol {
+  list-style-type: upper-roman;
+}
 
 /*
   causes the different css pages to appear
-  as a navigation bar at the bottom left of the browser
+  below everything
  */
 #style ul {
   list-style-type: none;
