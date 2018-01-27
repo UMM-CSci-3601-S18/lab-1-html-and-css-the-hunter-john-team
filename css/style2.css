@@ -12,6 +12,10 @@ body{
   background: #660000;
 }
 
+/*
+  changes the element with id main-title,
+  changes font, font size, color, and aligns left
+ */
 #main-title {
   font-family: 'Righteous' , cursive;
   text-align: left;
@@ -19,16 +23,27 @@ body{
   color: #6A9E8B;
 }
 
+/*
+  selects all elements witj class section,
+  sets border and background color
+ */
 .section {
   border-radius: 10px;
   padding: 20px;
   border: 10px inset green;
   margin: 10px;
   max-width: 870px;
+}
+
+/*
+  example of grouping,
+  changes the background for pslo, courses, and faculty sections
+ */
+#pslo, #courses, #faculty{
   background: #D5B97C;
 }
 
-h2{
+h2 {
   font-family: 'Righteous' , cursive;
   text-align: center;
   font-size: 2rem;
@@ -36,10 +51,24 @@ h2{
 
 }
 
-img{
+/*
+  example of nesting,
+  changes the header in the faculty section
+ */
+#faculty h2 {
+  font-family:'Times New Roman', cursive;
+  text-align: left;
+  font-size: 2rem;
+}
+
+img {
   border-radius: 75%;
 }
 
+/*
+  causes the different css pages to appear
+  as a navigation bar at the bottom left of the browser
+ */
 #style ul {
   list-style-type: none;
   margin: 0;
