@@ -9,7 +9,7 @@ use float to make something locate itself on the right or left
 
 body{
   padding: 30px;
-  background: #660000;
+  background: black;
 }
 
 /*
@@ -61,12 +61,16 @@ h2 {
   font-size: 2rem;
 }
 
-.section{
-  display: block;
+/*
+Changes the faculty pictures to a 2x2 instead of in a line
+ */
+#faculty>ul>li {
+  display: inline-flex;
+  padding: 30px;
 }
 
 img {
-  border-radius: 75%;
+  border-radius: 50%;
 }
 
 /*
@@ -79,13 +83,13 @@ img {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 15%;
 }
 
 #style li {
-  float: inherit;
+  float: left;
 }
 
 #style li a {
