@@ -57,13 +57,10 @@ h2 {
  */
 #faculty h2 {
   font-family:'Times New Roman', cursive;
-  text-align: left;
+  text-align: center;
   font-size: 2rem;
 }
 
-img {
-  border-radius: 75%;
-}
 
 /*
   causes the different css pages to appear
@@ -89,4 +86,27 @@ img {
   color: white;
   padding: 10px;
 }
+
+#faculty-list{
+  list-style-type: none;
+}
+
+#faculty-list>li {
+  position: relative;
+}
+
+.office {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+
+}
+
+.name {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+
+}
+
 

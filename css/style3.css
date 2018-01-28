@@ -69,9 +69,10 @@ Changes the faculty pictures to a 2x2 instead of in a line
   display: inline-flex;
   padding: 30px;
 }
-
-img {
-  border-radius: 50%;
+.office{
+  position: relative;
+  top: 25px;
+  right: 50px;
 }
 /*
 Changes the numbers in PSLO to roman numerals
@@ -106,9 +107,9 @@ ol {
 }
 
 #validation{
-  color: white;
+  color: green;
 }
 
 #validation a{
-  color: gold;
+  color: purple;
 }
