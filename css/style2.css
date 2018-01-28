@@ -87,6 +87,10 @@ h2 {
   padding: 10px;
 }
 
+/*
+  places the name and office
+  over pictures of faculty
+ */
 #faculty-list{
   list-style-type: none;
 }
